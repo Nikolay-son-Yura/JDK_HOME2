@@ -55,10 +55,11 @@ public class ServerController {
     }
 
     public void disconnectUser(ClientController clientController) {
-        clientArrayList.remove(clientController);
+//        clientArrayList.remove(clientController);
         if (clientController != null) {
             clientController.disconnectedFromServer();
             showOnWindow(clientController.getName() + " отключился от беседы");
+
         }
     }
 
