@@ -1,7 +1,7 @@
-package org.example.client;
+package org.example.lesson2.client;
 
 
-import org.example.server.ServerController;
+import org.example.lesson2.server.ServerController;
 
 /**
  * класс содержащий логику работы клиента

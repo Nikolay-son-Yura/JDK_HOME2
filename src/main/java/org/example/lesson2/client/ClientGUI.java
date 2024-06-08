@@ -1,6 +1,6 @@
-package org.example.client;
+package org.example.lesson2.client;
 
-import org.example.server.ServerWindow;
+import org.example.lesson2.server.ServerWindow;
 
 import javax.swing.*;
 import java.awt.*;

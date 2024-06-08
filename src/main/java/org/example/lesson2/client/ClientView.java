@@ -1,4 +1,4 @@
-package org.example.client;
+package org.example.lesson2.client;
 
 /**
  * Интерфейс описывающий абстракцию GUI

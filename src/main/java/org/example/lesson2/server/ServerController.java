@@ -1,7 +1,7 @@
-package org.example.server;
+package org.example.lesson2.server;
 
-import org.example.client.ClientController;
-import org.example.dateBase.Repository;
+import org.example.lesson2.dateBase.Repository;
+import org.example.lesson2.client.ClientController;
 
 import java.util.ArrayList;
 

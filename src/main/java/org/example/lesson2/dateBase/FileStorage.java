@@ -1,4 +1,4 @@
-package org.example.dateBase;
+package org.example.lesson2.dateBase;
 
 import java.io.FileReader;
 import java.io.FileWriter;

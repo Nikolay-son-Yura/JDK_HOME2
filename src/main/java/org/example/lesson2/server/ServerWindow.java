@@ -1,4 +1,4 @@
-package org.example.server;
+package org.example.lesson2.server;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,10 +1,10 @@
-package org.example;
+package org.example.lesson2;
 
-import org.example.client.ClientController;
-import org.example.client.ClientGUI;
-import org.example.dateBase.FileStorage;
-import org.example.server.ServerController;
-import org.example.server.ServerWindow;
+import org.example.lesson2.client.ClientController;
+import org.example.lesson2.client.ClientGUI;
+import org.example.lesson2.dateBase.FileStorage;
+import org.example.lesson2.server.ServerController;
+import org.example.lesson2.server.ServerWindow;
 
 public class Program {
     public static void main(String[] args) {
