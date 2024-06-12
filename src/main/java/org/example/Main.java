@@ -21,7 +21,7 @@ public class Main {
         Integer[] arr5={1,2,3,4};
         System.out.println( CompareArrays.compareArrays(arr1,arr2));
         System.out.println(CompareArrays.compareArrays(flArr1,flArr2));
-        System.out.println(CompareArrays.compareArrays(strArr1,strArr2)+"массивы стринг");
+        System.out.println(CompareArrays.compareArrays(strArr1,strArr2)+" массивы стринг");
         System.out.println("------Task3------");
         Pair<String,Integer> pair1 = new Pair<>("a",1);
         Pair<Double,Character> pair2=new Pair<>(1.1,'A');
