@@ -45,11 +45,12 @@ public class EmployeeDirectory {
     со stream() разобрался, но вот с "простой" реализацией возникли проблемы
      */
 
-    public List<?> searchForAnEmployeeByServiceNumber(String serviceNumber) {
+    public Employee searchForAnEmployeeByServiceNumber(String serviceNumber) {
 
 //        return employees.stream().filter(x -> x.getServiceNumber().equalsIgnoreCase(serviceNumber)).toList();  // вариант 1
 
-        return Collections.singletonList(employees.stream().filter(x -> x.getServiceNumber().equalsIgnoreCase(serviceNumber)).findFirst().orElse(null)); //вариант 2
+//        return Collections.singletonList(employees.stream().filter(x -> x.getServiceNumber().equalsIgnoreCase(serviceNumber)).findFirst().orElse(null)); //вариант 2
+        return employees.stream().filter(x -> x.getServiceNumber().equalsIgnoreCase(serviceNumber)).findFirst().orElse(null);
 
 //        List<String> rezult = new ArrayList<>();  //вариант3
 //        for (Employee i : employees) {
